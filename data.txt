@@ -1,0 +1,416 @@
+Script started on 2019-12-17 16:39:00+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="125" LINES="42"]
+]0;pi@raspberrypi: ~/Documents/Group 3[01;32mpi@raspberrypi[00m:[01;34m~/Documents/Group 3 $[00m exitpython3 safety.py
+Time: 0.010974
+Tapped: True
+Derivative is: 48.401117
+Time: 0.215306
+Tapped: False
+Derivative is: -0.135895
+Time: 0.419609
+Tapped: False
+Derivative is: 0.241408
+Time: 0.625549
+Tapped: False
+Derivative is: 0.916813
+Time: 0.834102
+Tapped: False
+Derivative is: 0.657050
+Time: 1.038421
+Tapped: False
+Derivative is: -3.725358
+Time: 1.242850
+Tapped: False
+Derivative is: 3.317330
+Time: 1.447133
+Tapped: False
+Derivative is: -3.289270
+Time: 1.651459
+Tapped: False
+Derivative is: 10.449221
+Time: 1.855753
+Tapped: False
+Derivative is: -9.468550
+Collision detected
+Time: 2.060058
+Tapped: False
+Derivative is: 0.326274
+Time: 2.264381
+Tapped: True
+Derivative is: -3.840789
+Time: 2.470414
+Tapped: True
+Derivative is: 4.948893
+Time: 2.680606
+Tapped: False
+Derivative is: -0.870731
+Time: 2.890870
+Tapped: True
+Derivative is: 8.736101
+Time: 3.101118
+Tapped: True
+Derivative is: -22.250212
+Collision detected
+Time: 3.309841
+Tapped: True
+Derivative is: 11.071645
+Time: 3.514143
+Tapped: False
+Derivative is: 3.088797
+Time: 3.718441
+Tapped: False
+Derivative is: -1.121788
+Time: 3.924376
+Tapped: False
+Derivative is: 1.205972
+Time: 4.132990
+Tapped: False
+Derivative is: -0.621395
+Time: 4.337276
+Tapped: False
+Derivative is: -0.059437
+Time: 4.541563
+Tapped: False
+Derivative is: 0.826300
+Time: 4.746099
+Tapped: False
+Derivative is: 0.428172
+Time: 4.956356
+Tapped: False
+Derivative is: 0.445493
+Time: 5.164961
+Tapped: False
+Derivative is: -1.177741
+Time: 5.369260
+Tapped: True
+Derivative is: 6.160248
+Time: 5.573539
+Tapped: True
+Derivative is: -2.986862
+Time: 5.779435
+Tapped: False
+Derivative is: -3.193306
+Time: 5.989739
+Tapped: True
+Derivative is: 0.557634
+Time: 6.198419
+Tapped: False
+Derivative is: 2.390873
+Time: 6.402707
+Tapped: False
+Derivative is: -3.555063
+Time: 6.606982
+Tapped: False
+Derivative is: -0.604951
+Time: 6.812912
+Tapped: False
+Derivative is: 1.081091
+Time: 7.023122
+Tapped: False
+Derivative is: -0.307042
+Time: 7.231783
+Tapped: False
+Derivative is: -0.003170
+Time: 7.436034
+Tapped: False
+Derivative is: 0.140498
+Time: 7.640314
+Tapped: False
+Derivative is: -1.786778
+Time: 7.846256
+Tapped: False
+Derivative is: 2.666535
+Time: 8.056598
+Tapped: True
+Derivative is: -3.926798
+Time: 8.265654
+Tapped: True
+Derivative is: -4.380366
+Time: 8.469926
+Tapped: False
+Derivative is: 7.188196
+Time: 8.674186
+Tapped: True
+Derivative is: -14.878208
+Collision detected
+Time: 8.880198
+Tapped: True
+Derivative is: 14.141281
+Time: 9.088841
+Tapped: False
+Derivative is: 2.084133
+Time: 9.293154
+Tapped: False
+Derivative is: -2.189431
+Time: 9.497471
+Tapped: False
+Derivative is: 1.494458
+Time: 9.701794
+Tapped: False
+Derivative is: -0.158332
+Time: 9.907825
+Tapped: False
+Derivative is: -0.676134
+Time: 10.116374
+Tapped: False
+Derivative is: 1.035066
+Time: 10.320678
+Tapped: False
+Derivative is: -0.640204
+Time: 10.524961
+Tapped: False
+Derivative is: -2.280025
+Time: 10.729261
+Tapped: True
+Derivative is: -6.937838
+Time: 10.935242
+Tapped: True
+Derivative is: 0.367014
+Time: 11.143793
+Tapped: True
+Derivative is: 40.298934
+Time: 11.348068
+Tapped: False
+Derivative is: -29.874221
+Collision detected
+Time: 11.552380
+Tapped: False
+Derivative is: -0.490259
+Time: 11.756665
+Tapped: False
+Derivative is: -1.226198
+Time: 11.962595
+Tapped: False
+Derivative is: -0.259279
+Time: 12.171178
+Tapped: False
+Derivative is: 0.027408
+Time: 12.375469
+Tapped: False
+Derivative is: -0.244943
+Time: 12.579754
+Tapped: False
+Derivative is: -0.019667
+Time: 12.784053
+Tapped: False
+Derivative is: 0.568582
+Time: 12.989996
+Tapped: False
+Derivative is: -1.461900
+Time: 13.198672
+Tapped: False
+Derivative is: 1.980389
+Time: 13.402957
+Tapped: True
+Derivative is: -5.664757
+Time: 13.607237
+Tapped: True
+Derivative is: 13.834949
+Time: 13.811795
+Tapped: True
+Derivative is: 18.239839
+Time: 14.022097
+Tapped: True
+Derivative is: -30.067335
+Collision detected
+Time: 14.230759
+Tapped: False
+Derivative is: 3.199709
+Time: 14.435123
+Tapped: False
+Derivative is: 0.266059
+Time: 14.639453
+Tapped: False
+Derivative is: -0.717283
+Time: 14.844035
+Tapped: False
+Derivative is: 0.708766
+Time: 15.052655
+Tapped: False
+Derivative is: -0.567198
+Time: 15.257061
+Tapped: False
+Derivative is: 0.865404
+Time: 15.461342
+Tapped: False
+Derivative is: -1.984471
+Time: 15.665679
+Tapped: False
+Derivative is: 4.929803
+Time: 15.871632
+Tapped: True
+Derivative is: -3.672827
+Time: 16.080256
+Tapped: False
+Derivative is: -7.457221
+Collision detected
+Time: 16.284682
+Tapped: False
+Derivative is: 6.937908
+Time: 16.488982
+Tapped: False
+Derivative is: 2.342155
+Time: 16.693274
+Tapped: False
+Derivative is: 3.701569
+Time: 16.899219
+Tapped: False
+Derivative is: -6.791909
+Time: 17.107852
+Tapped: False
+Derivative is: 2.501085
+Time: 17.312157
+Tapped: False
+Derivative is: -1.378273
+Time: 17.516532
+Tapped: False
+Derivative is: 0.325580
+Time: 17.720851
+Tapped: False
+Derivative is: 0.064313
+Time: 17.926816
+Tapped: False
+Derivative is: 0.486637
+Time: 18.135381
+Tapped: False
+Derivative is: -0.294774
+Time: 18.339749
+Tapped: False
+Derivative is: -0.280899
+Time: 18.544090
+Tapped: False
+Derivative is: -3.301198
+Time: 18.748379
+Tapped: False
+Derivative is: 3.583805
+Time: 18.954377
+Tapped: True
+Derivative is: 1.163196
+Time: 19.162981
+Tapped: False
+Derivative is: -1.800546
+Time: 19.367269
+Tapped: False
+Derivative is: -0.523995
+Time: 19.571557
+Tapped: False
+Derivative is: 5.502177
+Time: 19.777483
+Tapped: False
+Derivative is: -5.516540
+Time: 19.987762
+Tapped: False
+Derivative is: 0.446364
+Time: 20.196413
+Tapped: False
+Derivative is: 0.196674
+Time: 20.400704
+Tapped: False
+Derivative is: 0.208953
+Time: 20.604995
+Tapped: False
+Derivative is: 0.348888
+Time: 20.810944
+Tapped: False
+Derivative is: -0.652969
+Time: 21.019516
+Tapped: False
+Derivative is: 0.302239
+Time: 21.223875
+Tapped: False
+Derivative is: 0.801122
+Time: 21.428167
+Tapped: False
+Derivative is: 0.401103
+Time: 21.632466
+Tapped: False
+Derivative is: -2.680014
+Time: 21.838418
+Tapped: False
+Derivative is: 2.033783
+Time: 22.046993
+Tapped: False
+Derivative is: 7.350715
+Time: 22.251420
+Tapped: False
+Derivative is: -12.371226
+Collision detected
+Time: 22.455726
+Tapped: True
+Derivative is: 59.952391
+Time: 22.659999
+Tapped: True
+Derivative is: -58.648762
+Collision detected
+Time: 22.865996
+Tapped: False
+Derivative is: 2.698145
+Time: 23.076187
+Tapped: False
+Derivative is: 0.025559
+Time: 23.285004
+Tapped: False
+Derivative is: -0.327656
+Time: 23.489290
+Tapped: False
+Derivative is: 0.759782
+Time: 23.693588
+Tapped: False
+Derivative is: -0.007955
+Time: 23.899546
+Tapped: False
+Derivative is: 0.537824
+Time: 24.108057
+Tapped: False
+Derivative is: -0.672029
+Time: 24.312306
+Tapped: False
+Derivative is: 0.173266
+Time: 24.516569
+Tapped: False
+Derivative is: 0.134596
+Time: 24.720837
+Tapped: False
+Derivative is: -1.092723
+Time: 24.926748
+Tapped: False
+Derivative is: -0.036109
+Time: 25.135238
+Tapped: False
+Derivative is: 0.441918
+Time: 25.339507
+Tapped: True
+Derivative is: 9.933559
+Time: 25.543803
+Tapped: False
+Derivative is: -6.988408
+Time: 25.748070
+Tapped: False
+Derivative is: -2.738645
+Time: 25.953959
+Tapped: False
+Derivative is: 2.820119
+Time: 26.162439
+Tapped: False
+Derivative is: 2.987237
+Time: 26.366726
+Tapped: False
+Derivative is: -4.624040
+Time: 26.570984
+Tapped: False
+Derivative is: -1.205152
+Time: 26.775824
+Tapped: False
+Derivative is: 1.945012
+Time: 26.985942
+Tapped: True
+Derivative is: 0.062034
+Time: 27.194582
+Tapped: False
+Derivative is: -1.308187
+Time: 27.398862
+Tapped: False
+Derivative is: -1.004155
+^CTraceback (most recent call last):
+  File "safety.py", line 60, in <module>
+    MotorOn(currentState, acceleration, t0, start_time);
+  File "safet
