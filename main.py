@@ -3,40 +3,19 @@
 import adafruit_adxl34x
 import board
 import busio
-import MotorState
 import math
 import numpy as np
+import serial
 import time
 
 
-def CurrentSensor():
-    reading = 1  # get actual current sensor reading
-    return reading
-
-
-def Accelerometer():
-    i2c = busio.I2C(board.SCL, board.SDA)
-    accelerometer = adafruit_adxl34x.ADXL345(i2c)
-    return accelerometer
-
-
-def CutCurrent():
-    # cut the current
-    currentState = 0
-    return currentState
-
-
-def MotorOff(f, accelerometer, timeStep, threshold):
-    print("Motor is off")  # do nothing
-    f.write("Motor is off")
-    return
-
-
-def CollisionDetection(f, accelerometer, timeStep, threshold):
+def CollisionDetection(accelerometer):
 
     acceleration = np.zeros((2, 3))  # Initialize
+    timeStep = 0.2  # define how frequently measurements are read.
+    threshold = -7
 
-    while(True):
+    while True:
         acceleration[0, :] = acceleration[1, :]
         acceleration[1, :] = np.asarray(accelerometer.acceleration)
 
@@ -51,39 +30,40 @@ def CollisionDetection(f, accelerometer, timeStep, threshold):
                                            duration=50, latency=20,
                                            window=255)
 
-        print("Tapped: %s" % accelerometer.events['tap'])  # True or False
-        f.write("Tapped: %s \n" % accelerometer.events['tap'])
-        print("Derivative is: %f" % derivative)
+        print("Tapped: %s \n" % accelerometer.events['tap'])  # True or False
+        print("Derivative is: %f \n" % derivative)
 
+        # Detect collision:
         if (derivative < threshold):
-            print('Collision detected')
-            CutCurrent()
+            print('COLLISION DETECTED')
             # cut the current
 
             time.sleep(timeStep)  # difference between measurements
-
     return
 
 
 def Main():
-    timeStep = 0.2  # define how frequently measurements are read.
-    threshold = -7
-    filename = "trial1.txt"
 
-    # CollectData prints the output to a file with name filename
-    f = open(filename, "ab")
+    # Set-up accelerometer connections, using an i2c communication.
+    i2c = busio.I2C(board.SCL, board.SDA)
+    accelerometer = adafruit_adxl34x.ADXL345(i2c)
 
-    # Set-up connections
-    accelerometer = Accelerometer()
-    currentSensor = CurrentSensor()
+    # Set-up current sensor connection, using serial communication.
+    ser = serial.Serial('/dev/ttyACM0',9600,timeout=1)
+    ser.flush()
 
-    # Collision Detection
-    while(True):
-        if currentSensor != 0:
-            MotorState.CollisionDetection(f, accelerometer, timeStep,
-                                          threshold)
-        else:  # do nothing
-            MotorOff()
+    # Collision detection while motor is on
+    while True:
+        if ser.in_waiting > 0:
+            currentVal = ser.readline().decode('utf-8').rstrip()
+            print('The current sensor value is: %f \n' % currentVal)
+
+            if currentVal > 2.5:
+                print('Motor on \n')
+                CollisionDetection(accelerometer)
+
+            else:  # do nothing
+                print("Motor is off, raise a flag")  # do nothing
     return
 
 
